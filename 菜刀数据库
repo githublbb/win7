@@ -1,0 +1,5 @@
+<T>MYSQL<T>
+<H>localhost</H>
+<U>root</U> #账号
+<P>root</P> #密码
+<N>mysql</N> #数据库名称

